@@ -1,0 +1,6 @@
+catalog:
+  postgres_catalog:
+    type: sql
+    uri: postgresql://localhost:5432/pyice
+    init_catalog_tables: true
+    warehouse: s3://<bucket>/<prefix>
